@@ -1,0 +1,26 @@
+body {
+  background-color: rgb(25, 25, 25);
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.move-icon {
+  height: 50px;
+}
+
+.move-btn {
+  background-color: transparent;
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  border: 3px solid white;
+  margin-right: 10px;
+}
+
+.result {
+}
