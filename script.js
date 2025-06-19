@@ -11,7 +11,7 @@ function generateComputerMove() {
     computerMove = 'rock';
   } else if (randomNumber >= 1 / 3 && randomNumber < 2 / 3) {
     computerMove = 'scissor';
-  } else if (randomNumber >= 2 / 3 && randomNumber < 3) {
+  } else if (randomNumber >= 2 / 3 && randomNumber < 1) {
     computerMove = 'paper';
   }
   return computerMove;
